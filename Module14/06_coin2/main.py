@@ -1,3 +1,4 @@
+# TODO Параметры как и имя функции не должны подчеркиваться и пересекаться с глобальными переменными
 def if_coin_in_square(point_x, point_y):
     return (start_of_circle >= point_x >= end_of_circle) and (end_of_circle <= point_y <= start_of_circle)
 

@@ -14,4 +14,5 @@ first_reserve_number = calculate_numbers(first_number)
 second_reserve_number = calculate_numbers(second_number)
 print("\nПервое число наоборот:", first_reserve_number)
 print("Второе число наоборот:", second_reserve_number)
+# TODO вычисления в принтах
 print("Сумма:", first_reserve_number + second_reserve_number)

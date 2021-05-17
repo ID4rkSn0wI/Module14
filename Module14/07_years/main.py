@@ -1,3 +1,4 @@
+# TODO Параметры как и имя функции не должны подчеркиваться и пересекаться с глобальными переменными
 def calculate_years(start, stop):
     for year in range(start, stop + 1):
         quantity_of_numbers = 1
@@ -7,6 +8,8 @@ def calculate_years(start, stop):
         temp //= 100
         if first_temp == second_temp:
             quantity_of_numbers += 1
+            # TODO перенести вышли за границы
+            # TODO знак для переноса не использовать \
             if temp % 10 == first_temp or temp % 10 == second_temp or (temp // 10) % 10 == first_temp or (temp // 10) % 10 == second_temp:
                 quantity_of_numbers += 1
                 print(year)
