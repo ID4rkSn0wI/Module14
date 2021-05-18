@@ -1,16 +1,14 @@
-def min_divider(n, d):
-    if n % d == 0 and n > 1:
-        return d
+def calculate_least_divisor(divisor_number, divisor):
+    if divisor_number % divisor == 0:
+        return divisor
     else:
-        min_divider(n, d + 1)
+        least_divisor(divisor_number, divisor + 1)
 
 
 number = int(input("Введите число: "))
 if number > 1:
-    d = 2
-    min_divider_of_number = min_divider(number, d)
-    print("Наименьший делитель, отличный от единицы:", min_divider_of_number)
+    divisor = 2
+    least_divisor = calculate_least_divisor(number, divisor)
+    print("Наименьший делитель, отличный от единицы:", least_divisor)
 else:
     print("Нет делителя, отличного от единицы. Попробуйте снова")
-
-# TODO нейминг переменных и параметров

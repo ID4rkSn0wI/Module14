@@ -1,6 +1,5 @@
-# TODO Параметры как и имя функции не должны подчеркиваться и пересекаться с глобальными переменными
-def if_coin_in_square(point_x, point_y):
-    return (start_of_circle >= point_x >= end_of_circle) and (end_of_circle <= point_y <= start_of_circle)
+def if_coin_in_square(x_coordinate, y_coordinate):
+    return (start_of_circle >= x_coordinate >= end_of_circle) and (end_of_circle <= y_coordinate <= start_of_circle)
 
 
 point_x = float(input("Введите координату x: "))
