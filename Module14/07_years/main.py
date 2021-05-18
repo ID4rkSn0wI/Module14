@@ -21,3 +21,4 @@ start = int(input("Введите первый год: "))
 stop = int(input("Введите второй год: "))
 print("Года от 1900 до 2100 с тремя одинаковыми цифрами:")
 calculate_years(start, stop)
+
